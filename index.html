@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <h1>Task Manager</h1>
+
+    <div class="task-form">
+      <input id="title" type="text" placeholder="Task title" />
+      <input id="description" type="text" placeholder="Description" />
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="board">
+
+  
+      <div class="column">
+        <h2>Pending</h2>
+        <div id="tasks"></div>
+      </div>
+
+      <div class="column completed-column">
+        <h2>Completed</h2>
+        <div id="completedTasks"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
